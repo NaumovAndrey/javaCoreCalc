@@ -1,5 +1,9 @@
+import view.ViewConsole;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ViewConsole viewConsole = new ViewConsole();
+        String line = viewConsole.dataRequest();
+
     }
 }
